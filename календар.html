@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Інтерактивний календар подій</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Виконала Савчук В -->
+        <h1>Календар подій</h1>
+        <div id="calendar"></div>
+        <div id="event-form" class="hidden">
+            <h2 id="form-title">Додати подію</h2>
+            <input type="text" id="event-title" placeholder="Назва події" required>
+            <input type="date" id="event-date" required>
+            <textarea id="event-description" placeholder="Опис події"></textarea>
+            <button id="save-event">Зберегти</button>
+            <button id="cancel-event">Скасувати</button>
+        </div>
+    </div>
+    <script src="k.js"></script>
+</body>
+</html>
